@@ -1,12 +1,12 @@
 export class Productos {
-    id: number;
+    id?: number | null;
     nombre: string;
     descripcion: string;
     precio: number;
     cantidad_disponible: number;
 
     constructor(infoProducto:{
-        id: number;
+        id?: number | null;
         nombre: string;
         descripcion: string;
         precio: number;
